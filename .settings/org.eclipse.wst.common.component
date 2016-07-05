@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jingwen.maven.example">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <dependent-module archiveName="Manager-billing-sdk-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Manager-billing-sdk/Manager-billing-sdk">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="neunn-cephV2-sdk-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/neunn-cephV2-sdk/neunn-cephV2-sdk">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="NeunnManager-exception-java-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/NeunnManager-exception-java/NeunnManager-exception-java">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="neunn-ceilometer-sdk-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/neunn-ceilometer-sdk/neunn-ceilometer-sdk">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="neunn-mail-sdk-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/neunn-mail-sdk/neunn-mail-sdk">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dubbo-rpc-api-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dubbo-rpc-api/dubbo-rpc-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="jingwen.maven.example"/>
+        <property name="java-output-path" value="/jingwen.maven.example/target/classes"/>
+    </wb-module>
+</project-modules>
